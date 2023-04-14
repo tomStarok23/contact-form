@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Sedgwick+Ave+Display&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #EDC6B1;
+}
+
+
+.contact-details {
+    background-color: #7C96AB;
+    height: 50vh;
+    width: 70vh;
+    border-radius: 10px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 40px 30px 40px 70px;
+}
+
+#contact-details {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    padding: 12px;
+
+}
+
+input[type=text] {
+    padding: 8px;
+    margin: 8px 0;
+    border: 0;
+    border-radius: 15px;
+    box-shadow: 0 0 15px 4px rgba(9, 0, 0, 0.06);
+    width: 90%;
+}
+
+#submit-details {
+    padding: 10px;
+    margin: 10px 0;
+    border: 0;
+    border-radius: 15px;
+    box-shadow: 0 0 15px 4px rgba(9, 0, 0, 0.06);
+    width: 90%;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    font-weight: bold;
+}
